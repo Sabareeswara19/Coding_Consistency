@@ -26,8 +26,8 @@ function leftNumberTraingleArrayFill(n) {
 function leftNumberTraingleRecursive(n, i = 1) {
   if (i > n) return;
 
-  // console.log(Array(i).fill(0).map((_,i) => i+1+" ").join(""));
-  console.log(Array.from({ length: i }, (_, i) => i + 1).join(""));
+  console.log(Array(i).fill(0).map((_,i) => i+1+" ").join(""));
+  // console.log(Array.from({ length: i }, (_, i) => i + 1).join(""));
   leftNumberTraingleRecursive(n, i + 1);
 }
 
