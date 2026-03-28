@@ -12,6 +12,7 @@ function pyramindForLoop(n) {
     console.log(row);
   }
 }
+console.log("HEllo");
 
 function pyramindWithRepeat(n) {
   for (let i = 1; i <= n; i++) {
